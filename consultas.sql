@@ -20,6 +20,8 @@ foreign key (idcliente) references clientes(idcliente)
 
 SELECT * FROM ordenes;
 SELECT * FROM clientes;
+SELECT * FROM clientes WHERE pais = 'USA';
+
 
 INSERT INTO clientes VALUES (3,'MARCOS','PEREZ',14,'CHINA');
 SELECT primer_nombre, apellido, pais FROM clientes where pais = 'COLOMBIA' AND apellido = 'DAVID';
